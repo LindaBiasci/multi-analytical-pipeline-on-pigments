@@ -1,0 +1,2181 @@
+<?xml version="1.0"?>
+<root xmlns="http://www.vips.ecs.soton.ac.uk/nip/8.7.0">
+  <Workspace window_x="0" window_y="23" window_width="1536" window_height="889" view="WORKSPACE_MODE_REGULAR" scale="1" offset="0" locked="false" lpane_position="287" lpane_open="false" rpane_position="1119" rpane_open="false" local_defs="// private definitions for this tab&#10;" name="tab2" caption="Default empty tab" filename="D:\KHM\multispectral_imaging_taket\multispectral-imaging-analyses-nip2" major="8" minor="7">
+    <Column x="0" y="0" open="true" selected="false" sform="false" next="24" name="A" caption="1st zone, false colour imaging">
+      <Subcolumn vislevel="3">
+        <Row popup="false" name="A1">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\1_760nm.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="A2">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\1_850nm.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="A3">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\1_950nm.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="A7">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\1_RGB.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="A8">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action A3 A2"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="A9">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.078509852216748763" offset="-144.30110837438423" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action A8 A1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="A10">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action A3 A1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="A11">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.041029766693483509" offset="-75.412711182622687" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action A10 A7"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="A12">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action A2 A7"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="A13">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.041029766693483509" offset="-75.412711182622687" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action A12 A1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="A14">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action A7 A3"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="A15">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="6008" image_top="3040" image_mag="-8" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.041042974408498308" offset="-75.519072911636897" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action A14 A2"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="A16">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\3channels\\1_RGB.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="A17">
+          <Rhs vislevel="3" flags="7">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="1" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="1"/>
+            <iText formula="Image_band_item.Extract_item.action A16"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="A18">
+          <Rhs vislevel="3" flags="7">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="1">
+              <Row name="x">
+                <Rhs vislevel="0" flags="4">
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="super">
+                <Rhs vislevel="0" flags="4">
+                  <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+                  <Subcolumn vislevel="0"/>
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="first">
+                <Rhs vislevel="1" flags="1">
+                  <Expression caption="Extract from band"/>
+                  <Subcolumn vislevel="0">
+                    <Row name="caption">
+                      <Rhs vislevel="0" flags="4">
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                    <Row name="expr">
+                      <Rhs vislevel="0" flags="4">
+                        <iText formula="1"/>
+                      </Rhs>
+                    </Row>
+                    <Row name="super">
+                      <Rhs vislevel="1" flags="4">
+                        <Subcolumn vislevel="0"/>
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                  </Subcolumn>
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="number">
+                <Rhs vislevel="1" flags="1">
+                  <Expression caption="Extract this many bands"/>
+                  <Subcolumn vislevel="0"/>
+                  <iText/>
+                </Rhs>
+              </Row>
+            </Subcolumn>
+            <iText formula="Image_band_item.Extract_item.action A16"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="A19">
+          <Rhs vislevel="3" flags="7">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="1">
+              <Row name="x">
+                <Rhs vislevel="0" flags="4">
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="super">
+                <Rhs vislevel="0" flags="4">
+                  <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+                  <Subcolumn vislevel="0"/>
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="first">
+                <Rhs vislevel="1" flags="1">
+                  <Expression caption="Extract from band"/>
+                  <Subcolumn vislevel="0">
+                    <Row name="caption">
+                      <Rhs vislevel="0" flags="4">
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                    <Row name="expr">
+                      <Rhs vislevel="0" flags="4">
+                        <iText formula="2"/>
+                      </Rhs>
+                    </Row>
+                    <Row name="super">
+                      <Rhs vislevel="1" flags="4">
+                        <Subcolumn vislevel="0"/>
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                  </Subcolumn>
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="number">
+                <Rhs vislevel="1" flags="1">
+                  <Expression caption="Extract this many bands"/>
+                  <Subcolumn vislevel="0"/>
+                  <iText/>
+                </Rhs>
+              </Row>
+            </Subcolumn>
+            <iText formula="Image_band_item.Extract_item.action A16"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="A22">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action B16 A17"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="A23">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.0038910505836575876" offset="-0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action A22 A18"/>
+          </Rhs>
+        </Row>
+      </Subcolumn>
+    </Column>
+    <Column x="417" y="0" open="true" selected="false" sform="false" next="24" name="B" caption="1st zone, image math">
+      <Subcolumn vislevel="3">
+        <Row popup="false" name="B1">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.078509852216748763" offset="-144.30110837438423" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\1_760nm.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="B2">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.17358747447243023" offset="-319.57454050374406" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\1_850nm.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="B3">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.17241379310344829" offset="-317.24137931034483" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\1_950nm.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="B4">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.081443628233791115" offset="-149.93771957840946" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\1_nofilt.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="B5">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.041062801932367152" offset="-75.678743961352652" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\1_RGB.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="B10">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="348.00406653724332" offset="-189.32148241518735" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Divide_item.action B4 B5"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="B11">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.15269461077844312" offset="116.96407185628742" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Subtract_item.action B3 B2"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="B12">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.069824753559693323" offset="200.39704271631982" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Subtract_item.action B3 B1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="B14">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.070286659316427788" offset="201.01984564498346" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Subtract_item.action B2 B1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="B15">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Add_item.action B1 B2"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="B16">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Add_item.action B15 B3"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="B17">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="306.09641630182199" offset="-66.297519258873194" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Divide_item.action B5 B16"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="B18">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Subtract_item.action B3 B1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="B19">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Add_item.action B3 B1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="B20">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="940.91779450684464" offset="211.27910309313808" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Divide_item.action B18 B19"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="B21">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Subtract_item.action B4 B5"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="B22">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Add_item.action B5 B4"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="B23">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="611.68353067549367" offset="91.809523809523796" falsecolour="true" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Divide_item.action B21 B22"/>
+          </Rhs>
+        </Row>
+      </Subcolumn>
+    </Column>
+    <Column x="833" y="0" open="true" selected="false" sform="false" next="20" name="C" caption="2nd zone, false colour imaging">
+      <Subcolumn vislevel="3">
+        <Row popup="false" name="C1">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\2_760nm.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="C2">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\2_850nm.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="C3">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\2_950nm.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="C4">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\2_RGB.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="C5">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action C3 C2"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="C6">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.018967569175840523" offset="-34.881359714370724" falsecolour="true" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_join_item.Bandwise_item.action C5 C1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="C7">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action C3 C1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="C8">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.018963337547408345" offset="-34.816687737041718" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action C7 C4"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="C9">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action C2 C4"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="C10">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.019220622597422174" offset="-38.748775156403106" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action C9 C1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="C11">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action C4 C3"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="C12">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.018963337547408345" offset="-34.816687737041718" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action C11 C2"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="C13">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\3channels\\2_RGB.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="C14">
+          <Rhs vislevel="3" flags="7">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="1"/>
+            <iText formula="Image_band_item.Extract_item.action C13"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="C15">
+          <Rhs vislevel="3" flags="7">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="1">
+              <Row name="x">
+                <Rhs vislevel="0" flags="4">
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="super">
+                <Rhs vislevel="0" flags="4">
+                  <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+                  <Subcolumn vislevel="0"/>
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="first">
+                <Rhs vislevel="1" flags="1">
+                  <Expression caption="Extract from band"/>
+                  <Subcolumn vislevel="0">
+                    <Row name="caption">
+                      <Rhs vislevel="0" flags="4">
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                    <Row name="expr">
+                      <Rhs vislevel="0" flags="4">
+                        <iText formula="1"/>
+                      </Rhs>
+                    </Row>
+                    <Row name="super">
+                      <Rhs vislevel="1" flags="4">
+                        <Subcolumn vislevel="0"/>
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                  </Subcolumn>
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="number">
+                <Rhs vislevel="1" flags="1">
+                  <Expression caption="Extract this many bands"/>
+                  <Subcolumn vislevel="0"/>
+                  <iText/>
+                </Rhs>
+              </Row>
+            </Subcolumn>
+            <iText formula="Image_band_item.Extract_item.action C13"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="C16">
+          <Rhs vislevel="3" flags="7">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="1">
+              <Row name="x">
+                <Rhs vislevel="0" flags="4">
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="super">
+                <Rhs vislevel="0" flags="4">
+                  <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+                  <Subcolumn vislevel="0"/>
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="first">
+                <Rhs vislevel="1" flags="1">
+                  <Expression caption="Extract from band"/>
+                  <Subcolumn vislevel="0">
+                    <Row name="caption">
+                      <Rhs vislevel="0" flags="4">
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                    <Row name="expr">
+                      <Rhs vislevel="0" flags="4">
+                        <iText formula="2"/>
+                      </Rhs>
+                    </Row>
+                    <Row name="super">
+                      <Rhs vislevel="1" flags="4">
+                        <Subcolumn vislevel="0"/>
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                  </Subcolumn>
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="number">
+                <Rhs vislevel="1" flags="1">
+                  <Expression caption="Extract this many bands"/>
+                  <Subcolumn vislevel="0"/>
+                  <iText/>
+                </Rhs>
+              </Row>
+            </Subcolumn>
+            <iText formula="Image_band_item.Extract_item.action C13"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="C18">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action D12 C14"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="C19">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.0038910505836575876" offset="-0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action C18 C15"/>
+          </Rhs>
+        </Row>
+      </Subcolumn>
+    </Column>
+    <Column x="1250" y="0" open="true" selected="false" sform="false" next="20" name="D" caption="2nd zone, image math">
+      <Subcolumn vislevel="3">
+        <Row popup="false" name="D1">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.058285891251930573" offset="-34.946060560970167" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\2_760nm.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="D2">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.058285891251930573" offset="-34.881359714370724" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\2_850nm.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="D3">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.058285891251930573" offset="-37.204752475247524" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\2_950nm.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="D4">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.060264283499180366" offset="-34.816687737041718" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\2_nofilt.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="D5">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.026140848541984885" offset="-34.816687737041718" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\2_RGB.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="D6">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="260.09039745965345" offset="-63.856769283667454" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Divide_item.action D4 D5"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="D8">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.20231633407769031" offset="128" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Subtract_item.action D3 D2"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="D9">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.078366810085314209" offset="137.52240902143831" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Subtract_item.action D3 D1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="D10">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.078366810085314209" offset="133.91506140386906" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Subtract_item.action D2 D1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="D11">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Add_item.action D1 D2"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="D12">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Add_item.action D11 D3"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="D13">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="255.00000000000043" offset="-15.238095238095241" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Divide_item.action D5 D12"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="D14">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Subtract_item.action D3 D1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="D15">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Add_item.action D1 D3"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="D16">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="255.00000000000043" offset="124.95238095238096" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Divide_item.action D14 D15"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="D17">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Subtract_item.action D4 D5"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="D18">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Add_item.action D5 D4"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="D19">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="360.54443963128892" offset="128" falsecolour="true" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Divide_item.action D17 D18"/>
+          </Rhs>
+        </Row>
+      </Subcolumn>
+    </Column>
+    <Column x="1667" y="0" open="true" selected="false" sform="false" next="19" name="E" caption="3rd zone, false colour imaging">
+      <Subcolumn vislevel="3">
+        <Row popup="false" name="E1">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\3_760nm.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="E2">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\3_850nm.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="E3">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\3_950nm_7.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="E4">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\3_RGB.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="E5">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action E3 E2"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="E6">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.094953236621639778" offset="-92.571428571428569" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action E5 E1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="E7">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action E3 E1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="E8">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.056365525970488821" offset="-83.501602564102569" falsecolour="true" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action E7 E4"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="E9">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action E2 E4"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="E10">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.068788531677799941" offset="-83.501602564102569" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action E9 E1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="E11">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action E4 E3"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="E12">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.064401166117961331" offset="-78.857142857142861" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action E11 E2"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="E13">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\3channels\\3_RGB.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="E14">
+          <Rhs vislevel="3" flags="7">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="1"/>
+            <iText formula="Image_band_item.Extract_item.action E13"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="E15">
+          <Rhs vislevel="3" flags="7">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="1">
+              <Row name="x">
+                <Rhs vislevel="0" flags="4">
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="super">
+                <Rhs vislevel="0" flags="4">
+                  <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+                  <Subcolumn vislevel="0"/>
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="first">
+                <Rhs vislevel="1" flags="1">
+                  <Expression caption="Extract from band"/>
+                  <Subcolumn vislevel="0">
+                    <Row name="caption">
+                      <Rhs vislevel="0" flags="4">
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                    <Row name="expr">
+                      <Rhs vislevel="0" flags="4">
+                        <iText formula="1"/>
+                      </Rhs>
+                    </Row>
+                    <Row name="super">
+                      <Rhs vislevel="1" flags="4">
+                        <Subcolumn vislevel="0"/>
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                  </Subcolumn>
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="number">
+                <Rhs vislevel="1" flags="1">
+                  <Expression caption="Extract this many bands"/>
+                  <Subcolumn vislevel="0"/>
+                  <iText/>
+                </Rhs>
+              </Row>
+            </Subcolumn>
+            <iText formula="Image_band_item.Extract_item.action E13"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="E16">
+          <Rhs vislevel="3" flags="7">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="1">
+              <Row name="x">
+                <Rhs vislevel="0" flags="4">
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="super">
+                <Rhs vislevel="0" flags="4">
+                  <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+                  <Subcolumn vislevel="0"/>
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="first">
+                <Rhs vislevel="1" flags="1">
+                  <Expression caption="Extract from band"/>
+                  <Subcolumn vislevel="0">
+                    <Row name="caption">
+                      <Rhs vislevel="0" flags="4">
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                    <Row name="expr">
+                      <Rhs vislevel="0" flags="4">
+                        <iText formula="2"/>
+                      </Rhs>
+                    </Row>
+                    <Row name="super">
+                      <Rhs vislevel="1" flags="4">
+                        <Subcolumn vislevel="0"/>
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                  </Subcolumn>
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="number">
+                <Rhs vislevel="1" flags="1">
+                  <Expression caption="Extract this many bands"/>
+                  <Subcolumn vislevel="0"/>
+                  <iText/>
+                </Rhs>
+              </Row>
+            </Subcolumn>
+            <iText formula="Image_band_item.Extract_item.action E13"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="E17">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action F16 E14"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="E18">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.0038910505836575876" offset="-0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action E17 E15"/>
+          </Rhs>
+        </Row>
+      </Subcolumn>
+    </Column>
+    <Column x="2095" y="0" open="true" selected="false" sform="false" next="25" name="F" caption="3rd zone, image math">
+      <Subcolumn vislevel="3">
+        <Row popup="false" name="F1">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.073439267839046335" offset="-98.249528598365814" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\3_760nm.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="F2">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.1043556070461284" offset="-149.9041533546326" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\3_850nm.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="F3">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.15528772575758412" offset="-212.07806859205778" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\3_950nm_7.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="F4">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.042922161635556171" offset="-40.274696930616457" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\3_nofilt.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="F5">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.080938736410086892" offset="-83.86363636363636" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\3_RGB.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="F10">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="98.991895529508653" offset="-14.095238095238102" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Divide_item.action F4 F5"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="F11">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.32621504930711825" offset="128" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Subtract_item.action F3 F2"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="F12">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.048488305761551623" offset="216.98516828294353" falsecolour="true" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Subtract_item.action F3 F1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="F13">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.094953236621639778" offset="159.6011921657678" falsecolour="true" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Subtract_item.action F2 F1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="F15">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Add_item.action F1 F2"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="F16">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Add_item.action F3 F15"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="F18">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="313.67349693108719" offset="78.857142857142861" falsecolour="true" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Divide_item.action F5 F16"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="F19">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Subtract_item.action F3 F1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="F20">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Add_item.action F1 F3"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="F21">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="386.54450999381652" offset="145.09999999999999" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Divide_item.action F19 F20"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="F22">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Subtract_item.action F4 F5"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="F23">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Add_item.action F4 F5"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="F24">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="295" offset="84.952380952380963" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Divide_item.action F22 F23"/>
+          </Rhs>
+        </Row>
+      </Subcolumn>
+    </Column>
+    <Column x="2523" y="0" open="true" selected="false" sform="false" next="19" name="I" caption="4th zone, false colour imaging">
+      <Subcolumn vislevel="3">
+        <Row popup="false" name="I1">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\4_760nm.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="I2">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\4_850nm.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="I3">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\4_950nm_7.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="I4">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\4_RGB.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="I5">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action I3 I2"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="I6">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.089108905162055954" offset="-34.795136823319453" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action I5 I1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="I7">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action I3 I1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="I8">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.083585160192716487" offset="-58.285714285714292" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action I7 I4"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="I9">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action I2 I4"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="I10">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.060264283499180366" offset="-34.752044609665425" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action I9 I1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="I11">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action I4 I3"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="I12">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.052693047924227236" offset="-25.904761904761898" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action I11 I2"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="I13">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\3channels\\4_RGB.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="I14">
+          <Rhs vislevel="3" flags="7">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="1"/>
+            <iText formula="Image_band_item.Extract_item.action I13"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="I15">
+          <Rhs vislevel="3" flags="7">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="1">
+              <Row name="x">
+                <Rhs vislevel="0" flags="4">
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="super">
+                <Rhs vislevel="0" flags="4">
+                  <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+                  <Subcolumn vislevel="0"/>
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="first">
+                <Rhs vislevel="1" flags="1">
+                  <Expression caption="Extract from band"/>
+                  <Subcolumn vislevel="0">
+                    <Row name="caption">
+                      <Rhs vislevel="0" flags="4">
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                    <Row name="expr">
+                      <Rhs vislevel="0" flags="4">
+                        <iText formula="1"/>
+                      </Rhs>
+                    </Row>
+                    <Row name="super">
+                      <Rhs vislevel="1" flags="4">
+                        <Subcolumn vislevel="0"/>
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                  </Subcolumn>
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="number">
+                <Rhs vislevel="1" flags="1">
+                  <Expression caption="Extract this many bands"/>
+                  <Subcolumn vislevel="0"/>
+                  <iText/>
+                </Rhs>
+              </Row>
+            </Subcolumn>
+            <iText formula="Image_band_item.Extract_item.action I13"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="I16">
+          <Rhs vislevel="3" flags="7">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="1">
+              <Row name="x">
+                <Rhs vislevel="0" flags="4">
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="super">
+                <Rhs vislevel="0" flags="4">
+                  <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+                  <Subcolumn vislevel="0"/>
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="first">
+                <Rhs vislevel="1" flags="1">
+                  <Expression caption="Extract from band"/>
+                  <Subcolumn vislevel="0">
+                    <Row name="caption">
+                      <Rhs vislevel="0" flags="4">
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                    <Row name="expr">
+                      <Rhs vislevel="0" flags="4">
+                        <iText formula="2"/>
+                      </Rhs>
+                    </Row>
+                    <Row name="super">
+                      <Rhs vislevel="1" flags="4">
+                        <Subcolumn vislevel="0"/>
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                  </Subcolumn>
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="number">
+                <Rhs vislevel="1" flags="1">
+                  <Expression caption="Extract this many bands"/>
+                  <Subcolumn vislevel="0"/>
+                  <iText/>
+                </Rhs>
+              </Row>
+            </Subcolumn>
+            <iText formula="Image_band_item.Extract_item.action I13"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="I17">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action J11 I14"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="I18">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.0038910505836575876" offset="-0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action I17 I15"/>
+          </Rhs>
+        </Row>
+      </Subcolumn>
+    </Column>
+    <Column x="2948" y="0" open="true" selected="false" sform="false" next="19" name="J" caption="4th zone, image math">
+      <Subcolumn vislevel="3">
+        <Row popup="false" name="J1">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.045982006743369462" offset="-34.795136823319453" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\4_760nm.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="J2">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.064401166117961331" offset="-34.967633928571431" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\4_850nm.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="J3">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.078366810085314209" offset="-60.963159942923852" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\4_950nm_7.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="J4">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.047583906954265648" offset="-34.946060560970167" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\4_nofilt.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="J5">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.044428511314486205" offset="-34.752044609665425" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\4_RGB.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="J6">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="255.00000000000043" offset="-17.523809523809518" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Divide_item.action J4 J5"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="J7">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.19653685430360418" offset="164.9712304514606" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Subtract_item.action J3 J2"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="J8">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.14191103487153792" offset="194.14535901926445" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Subtract_item.action J3 J1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="J9">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.12956026833611237" offset="127.89403538592289" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Subtract_item.action J2 J1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="J10">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Add_item.action J1 J2"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="J11">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Add_item.action J10 J3"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="J12">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="255.00000000000043" offset="9.904761904761898" falsecolour="true" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Divide_item.action J5 J11"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="J13">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Subtract_item.action J3 J1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="J14">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Add_item.action J3 J1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="J15">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="255.00000000000043" offset="128" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Divide_item.action J13 J14"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="J16">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Subtract_item.action J4 J5"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="J17">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Add_item.action J4 J5"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="J18">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="255.00000000000043" offset="99.428571428571416" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Divide_item.action J16 J17"/>
+          </Rhs>
+        </Row>
+      </Subcolumn>
+    </Column>
+    <Column x="4234" y="0" open="true" selected="false" sform="false" next="20" name="K" caption="6th zone, false colour imaging">
+      <Subcolumn vislevel="3">
+        <Row popup="false" name="K1">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\6_760nm.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="K2">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\6_850nm.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="K3">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\6_950nm_7.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="K4">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\6_RGB.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="K5">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action K3 K2"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="K6">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.098000539879648116" offset="-121.14285714285714" falsecolour="true" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action K5 K1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="K7">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action K3 K1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="K8">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.083585160192716487" offset="-34.967633928571431" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action K7 K4"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="K9">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action K2 K4"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="K10">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.073439267839046335" offset="-34.924490403213809" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action K9 K1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="K12">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action K4 K3"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="K13">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.066562745677779228" offset="-34.924490403213809" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action K12 K2"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="K14">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\3channels\\6_RGB.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="K15">
+          <Rhs vislevel="3" flags="7">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="1"/>
+            <iText formula="Image_band_item.Extract_item.action K14"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="K16">
+          <Rhs vislevel="3" flags="7">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="1">
+              <Row name="x">
+                <Rhs vislevel="0" flags="4">
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="super">
+                <Rhs vislevel="0" flags="4">
+                  <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+                  <Subcolumn vislevel="0"/>
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="first">
+                <Rhs vislevel="1" flags="1">
+                  <Expression caption="Extract from band"/>
+                  <Subcolumn vislevel="0">
+                    <Row name="caption">
+                      <Rhs vislevel="0" flags="4">
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                    <Row name="expr">
+                      <Rhs vislevel="0" flags="4">
+                        <iText formula="1"/>
+                      </Rhs>
+                    </Row>
+                    <Row name="super">
+                      <Rhs vislevel="1" flags="4">
+                        <Subcolumn vislevel="0"/>
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                  </Subcolumn>
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="number">
+                <Rhs vislevel="1" flags="1">
+                  <Expression caption="Extract this many bands"/>
+                  <Subcolumn vislevel="0"/>
+                  <iText/>
+                </Rhs>
+              </Row>
+            </Subcolumn>
+            <iText formula="Image_band_item.Extract_item.action K14"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="K17">
+          <Rhs vislevel="3" flags="7">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="1">
+              <Row name="x">
+                <Rhs vislevel="0" flags="4">
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="super">
+                <Rhs vislevel="0" flags="4">
+                  <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+                  <Subcolumn vislevel="0"/>
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="first">
+                <Rhs vislevel="1" flags="1">
+                  <Expression caption="Extract from band"/>
+                  <Subcolumn vislevel="0">
+                    <Row name="caption">
+                      <Rhs vislevel="0" flags="4">
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                    <Row name="expr">
+                      <Rhs vislevel="0" flags="4">
+                        <iText formula="2"/>
+                      </Rhs>
+                    </Row>
+                    <Row name="super">
+                      <Rhs vislevel="1" flags="4">
+                        <Subcolumn vislevel="0"/>
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                  </Subcolumn>
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="number">
+                <Rhs vislevel="1" flags="1">
+                  <Expression caption="Extract this many bands"/>
+                  <Subcolumn vislevel="0"/>
+                  <iText/>
+                </Rhs>
+              </Row>
+            </Subcolumn>
+            <iText formula="Image_band_item.Extract_item.action K14"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="K18">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action L12 K15"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="K19">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.0038910505836575876" offset="-0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action K18 K16"/>
+          </Rhs>
+        </Row>
+      </Subcolumn>
+    </Column>
+    <Column x="4662" y="0" open="true" selected="false" sform="false" next="21" name="L" caption="6th zone, image math">
+      <Subcolumn vislevel="3">
+        <Row popup="false" name="L1">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.068036286019210246" offset="-125.39087513340448" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\6_760nm.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="L2">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="0" window_y="0" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.12565943176115424" offset="-174.84357541899442" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\6_850nm.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="L3">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.11457115655290061" offset="-170.27717391304347" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\6_950nm_7.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="L4">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.040045999947486088" offset="-34.902923454586031" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\6_nofilt.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="L5">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.032426352658551073" offset="-35.010790296175024" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\6_RGB.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="L6">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="152.20520671912081" offset="49.904761904761898" falsecolour="true" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Divide_item.action L4 L5"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="L7">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.78559817970706625" offset="123.52184087363494" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Subtract_item.action L3 L2"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="L8">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.12565943176115424" offset="218.34516415261757" falsecolour="true" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Subtract_item.action L3 L1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="L9">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.16976252898318606" offset="217.04849498327758" falsecolour="true" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Subtract_item.action L2 L1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="L11">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Add_item.action L1 L2"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="L12">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Add_item.action L11 L3"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="L13">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="255.00000000000043" offset="63.238095238095241" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Divide_item.action L5 L12"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="L15">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Subtract_item.action L3 L1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="L16">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Add_item.action L3 L1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="L17">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="525.4461870688931" offset="128" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Divide_item.action L15 L16"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="L18">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Subtract_item.action L4 L5"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="L19">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Add_item.action L4 L5"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="L20">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="255.00000000000043" offset="128" falsecolour="true" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Divide_item.action L18 L19"/>
+          </Rhs>
+        </Row>
+      </Subcolumn>
+    </Column>
+    <Column x="3374" y="0" open="true" selected="false" sform="false" next="20" name="M" caption="5th zone, false colour imaging">
+      <Subcolumn vislevel="3">
+        <Row popup="false" name="M1">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\5_760nm.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="M2">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\5_850nm.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="M3">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\5_950nm_7.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="M4">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\5_RGB.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="M5">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action M3 M2"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="M6">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.1043556070461284" offset="-128" falsecolour="true" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action M5 M1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="M7">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_join_item.Bandwise_item.action M3 M1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="M8">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.064401166117961331" offset="-74.285714285714292" falsecolour="true" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action M7 M4"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="M9">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action M2 M4"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="M10">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.056365525970488821" offset="-63.238095238095241" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action M9 M1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="M11">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action M4 M3"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="M12">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.060264283499180366" offset="-95.61904761904762" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action M11 M2"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="M13">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\3channels\\5_RGB.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="M14">
+          <Rhs vislevel="3" flags="7">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="1"/>
+            <iText formula="Image_band_item.Extract_item.action M13"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="M15">
+          <Rhs vislevel="3" flags="7">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="1">
+              <Row name="x">
+                <Rhs vislevel="0" flags="4">
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="super">
+                <Rhs vislevel="0" flags="4">
+                  <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+                  <Subcolumn vislevel="0"/>
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="first">
+                <Rhs vislevel="1" flags="1">
+                  <Expression caption="Extract from band"/>
+                  <Subcolumn vislevel="0">
+                    <Row name="caption">
+                      <Rhs vislevel="0" flags="4">
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                    <Row name="expr">
+                      <Rhs vislevel="0" flags="4">
+                        <iText formula="1"/>
+                      </Rhs>
+                    </Row>
+                    <Row name="super">
+                      <Rhs vislevel="1" flags="4">
+                        <Subcolumn vislevel="0"/>
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                  </Subcolumn>
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="number">
+                <Rhs vislevel="1" flags="1">
+                  <Expression caption="Extract this many bands"/>
+                  <Subcolumn vislevel="0"/>
+                  <iText/>
+                </Rhs>
+              </Row>
+            </Subcolumn>
+            <iText formula="Image_band_item.Extract_item.action M13"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="M16">
+          <Rhs vislevel="3" flags="7">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="1">
+              <Row name="x">
+                <Rhs vislevel="0" flags="4">
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="super">
+                <Rhs vislevel="0" flags="4">
+                  <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+                  <Subcolumn vislevel="0"/>
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="first">
+                <Rhs vislevel="1" flags="1">
+                  <Expression caption="Extract from band"/>
+                  <Subcolumn vislevel="0">
+                    <Row name="caption">
+                      <Rhs vislevel="0" flags="4">
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                    <Row name="expr">
+                      <Rhs vislevel="0" flags="4">
+                        <iText formula="2"/>
+                      </Rhs>
+                    </Row>
+                    <Row name="super">
+                      <Rhs vislevel="1" flags="4">
+                        <Subcolumn vislevel="0"/>
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                  </Subcolumn>
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="number">
+                <Rhs vislevel="1" flags="1">
+                  <Expression caption="Extract this many bands"/>
+                  <Subcolumn vislevel="0"/>
+                  <iText/>
+                </Rhs>
+              </Row>
+            </Subcolumn>
+            <iText formula="Image_band_item.Extract_item.action M13"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="M17">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action N10 M14"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="M18">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.0038910505836575876" offset="-0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action M17 M15"/>
+          </Rhs>
+        </Row>
+      </Subcolumn>
+    </Column>
+    <Column x="3805" y="0" open="true" selected="false" sform="false" next="25" name="N" caption="5th zone, image math">
+      <Subcolumn vislevel="3">
+        <Row popup="false" name="N1">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.071080151769323571" offset="-122.80245623203554" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\5_760nm.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="N2">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.14191103487153792" offset="-204.82329842931938" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\5_850nm.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="N3">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.15071046542779445" offset="-222.10066162570888" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\5_950nm_7.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="N4">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.089108905162055954" offset="-111.10584892256689" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\5_nofilt.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="N5">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.038673804991031471" offset="-34.381812861218819" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;D:\\KHM\\multispectral_imaging_taket\\convertedTIFF\\5_RGB.CR2.tiff&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="N6">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="226.19215233772519" offset="-49.904761904761898" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Divide_item.action N4 N5"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="N7">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.7479264274338463" offset="105.52380952380952" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Subtract_item.action N3 N2"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="N8">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.22695642423081777" offset="230.60495216657287" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Subtract_item.action N3 N1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="N9">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.28426607614806321" offset="226.77766895200784" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Subtract_item.action N2 N1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="N10">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Add_item.action N1 N2"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="N11">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Add_item.action N10 N3"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="N12">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="172.62980585888039" offset="92.190476190476204" falsecolour="true" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Divide_item.action N5 N11"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="N19">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Subtract_item.action N3 N1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="N20">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Add_item.action N3 N1"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="N21">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="619.73095267558358" offset="128" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Divide_item.action N19 N20"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="N22">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Subtract_item.action N4 N5"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="N23">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Add_item.action N4 N5"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="N24">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="281.07238212056996" offset="128" falsecolour="true" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Math_arithmetic_item.Divide_item.action N22 N23"/>
+          </Rhs>
+        </Row>
+      </Subcolumn>
+    </Column>
+    <Column x="5089" y="0" open="true" selected="true" sform="false" next="14" name="G" caption="false colour imaging IR-G-B">
+      <Subcolumn vislevel="3">
+        <Row popup="false" name="G1">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action B16 A18"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="G2">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.0038910505836575876" offset="-0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action G1 A19"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="G3">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action D12 C15"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="G4">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.0038910505836575876" offset="-0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action G3 C16"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="G5">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action F16 E15"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="G6">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.0057239230014578474" offset="-13.333333333333329" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action G5 E16"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="G7">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action J11 I15"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="G8">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.0081024896295555059" offset="-0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action G7 I16"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="G10">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action N11 M15"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="G11">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.0045563528230096184" offset="-0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action G10 M16"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="G12">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action L12 K16"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="G13">
+          <Rhs vislevel="1" flags="1">
+            <iImage window_x="-8" window_y="-8" window_width="1536" window_height="889" image_left="4506" image_top="2280" image_mag="-6" show_status="true" show_paintbox="false" show_convert="true" show_rulers="true" scale="0.0038910505836575876" offset="-0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_band_item.Bandwise_item.action G12 K17"/>
+          </Rhs>
+        </Row>
+      </Subcolumn>
+    </Column>
+  </Workspace>
+</root>
